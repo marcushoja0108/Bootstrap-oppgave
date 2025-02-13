@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Kode/Projects/Bootstrap-oppgave/css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Min Portefølje</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hjem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Prosjekter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Ferdigheter</a>
+                    </li>
+                    <li class="nav-item">
+                                   <a class="nav-link" href="#Contact">Kontakt</a>
+                               </li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+
+<section id="Projects" class="bg-altlight">
+    <div class="container">
+        <div class="row text-center pt-3 justify-content-around">
+            <div class="col-md-5">
+                <h2>Content</h2>
+                <div class="card my-3 bg-light">
+                    <img src="assets/consoleApp-Adventure.PNG" class="card-img-top"  alt="Prosjektbilde" style="height: 400px; object-fit: cover;">
+                    <div class="card-body">
+                        <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseAdventure" role="button" aria-expanded="false" aria-controls="collapseAdventure">
+                            <h5 class="card-title fs-2">
+                                Adventure</h5>
+                        </a>
+                          <div class="collapse mt-3" id="collapseAdventure">
+                              <p class="card-text lead">This is a small adventure game I made as a console app using C#. 
+                                  It utilises classes, inheritance and interfaces to create enemies and items that you can encounter on your journey.
+                                  It also saves your progress in a json file. Items are unfortunately not saved.</p>
+                              <a href="https://github.com/marcushoja0108/Adventure" class="btn btn-primary fw-bold">See code</a>
+                          </div>
+                    </div>
+                </div> 
+
+                <div class="card my-5 bg-light">
+                    <img src="assets/Profiles-FullStack.PNG" class="card-img-top"  alt="Prosjektbilde" style="height: 400px; object-fit: cover;">
+                    <div class="card-body">
+                        <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseProfiles" role="button" aria-expanded="false" aria-controls="collapseProfiles">
+                            <h5 class="card-title fs-2">Profiles</h5>
+                        </a>
+                        <div class="collapse mt-3" id="collapseProfiles">
+                            <p class="card-text lead">My first attempt at a proper fullstack project. Frontend made in JS mvc, api made in C# using mssql for database. 
+                                Simple functionality where you can register, modify and delete users.</p>
+                            <a href="https://github.com/marcushoja0108/FullStackAttemptV2" class="btn btn-primary fw-bold">See code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h2>More content</h2>
+                <div class="card my-3 bg-light">
+                    <img src="assets/vue-music-recommendation.PNG" class="card-img-top"  alt="Prosjektbilde" style="height: 400px; object-fit: cover;">
+                    <div class="card-body">
+                        <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseMusicApp" role="button" aria-expanded="false" aria-controls="collapseMusicApp">
+                            <h5 class="card-title fs-2">Song recommendation</h5>
+                        </a>
+                        <div class="collapse mt-3" id="collapseMusicApp">
+                            <p class="card-text lead">Made as a task for the first time using Vue. Here you can get a random song recommendation from an 
+                                array of some selected country songs. You can also favorite, delete and add new songs. Still a work in progress.
+                                Eventually looking at implementing a spotify api and re-styling the page using bootstrap.
+                            </p>
+                            <a href="https://github.com/marcushoja0108/music-recommendations" class="btn btn-primary fw-bold">See code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my-5 bg-light">
+                    <img src="assets/DateRoulette-TeamProject.PNG" class="card-img-top"  alt="Prosjektbilde" style="height: 400px; object-fit: cover;">
+                    <div class="card-body">
+                        <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseDateRoulette" role="button" aria-expanded="false" aria-controls="collapseDateRoulette">
+                            <h5 class="card-title fs-2">DateRoulette</h5>
+                        </a>
+                        <div class="collapse mt-3" id="collapseDateRoulette">
+                            <p class="card-text lead">A larger team project made as a task with a fake customer. A random date selector made in JS using mvc.
+                                You can get random dates from an array of 50 possible. The optional filter can also narrow down the selection.
+                                After the date you can give ratings and store a photo memory wich get stored on your profile. 
+                                Late in the project we also added a partner functionality wich introduces couple dating.
+                            </p>
+                            <a href="https://github.com/marcushoja0108/DateRoulette" class="btn btn-primary fw-bold">See code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Skills">
+    <div class="container-lg p-5">
+        <h2 class="text-center text-primary">Skills</h2>
+        <div class="row justify-content-center text-center gap-5">
+            <div class="col-md-5">
+                <h1 class="lead fs-2">Languages</h1>
+                <ul class="list-group">
+                    <li class="list-group-item bg-light">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item bg-light">JavaScript</li>
+                    <li class="list-group-item">C#</li>
+                    <li class="list-group-item bg-light">SQL</li>
+                    <!-- Legg til flere ferdigheter etter behov -->
+                </ul>
+            </div>
+
+            <div class="col-md-5">
+                <h1 class="lead fs-2">Frameworks</h1>
+                <ul class="list-group">
+                    <li class="list-group-item bg-light">MVC</li>
+                    <li class="list-group-item">Vue</li>
+                    <li class="list-group-item bg-light">Node</li>
+                    <li class="list-group-item">Bootstrap</li>
+                    <!-- Legg til flere ferdigheter etter behov -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

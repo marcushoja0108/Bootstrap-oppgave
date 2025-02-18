@@ -36,9 +36,11 @@
 
 <section id="Projects" class="bg-altlight">
     <div class="container">
+        <div class="text-center py-3">
+            <h1 class="text-">My Projects</h1>
+        </div>
         <div class="row text-center pt-3 justify-content-around">
             <div class="col-md-5">
-                <h2>Content</h2>
                 <div class="card my-3 bg-light">
                     <img src="assets/consoleApp-Adventure.PNG" class="card-img-top"  alt="Prosjektbilde" style="height: 400px; object-fit: cover;">
                     <div class="card-body">
@@ -70,7 +72,6 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <h2>More content</h2>
                 <div class="card my-3 bg-light">
                     <img src="assets/vue-music-recommendation.PNG" class="card-img-top"  alt="Prosjektbilde" style="height: 400px; object-fit: cover;">
                     <div class="card-body">
@@ -109,10 +110,10 @@
 
 <section id="Skills">
     <div class="container-lg p-5">
-        <h2 class="text-center text-primary">Skills</h2>
+        <h2 class="text-center">Skills</h2>
         <div class="row justify-content-center text-center gap-5">
             <div class="col-md-5">
-                <h1 class="lead fs-2">Languages</h1>
+                <h1 class="lead fs-2 text-primary">Languages</h1>
                 <ul class="list-group">
                     <li class="list-group-item bg-light">HTML</li>
                     <li class="list-group-item">CSS</li>
@@ -124,7 +125,7 @@
             </div>
 
             <div class="col-md-5">
-                <h1 class="lead fs-2">Frameworks</h1>
+                <h1 class="lead fs-2 text-primary">Frameworks</h1>
                 <ul class="list-group">
                     <li class="list-group-item bg-light">MVC</li>
                     <li class="list-group-item">Vue</li>
@@ -135,9 +136,38 @@
             </div>
         </div>
     </div>
-
 </section>
 
+<section id="Contact" class="bg-altlight py-4">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Contact me</h2>
+            <p>Fill out the form to get in touch.</p>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form>
+                    <label for="email" class="form-label">Email address</label>
+                    <div class="mb-3 input-group">
+                        <input type="email" class="form-control" placeholder="mail@email.com">
+                    </div>
+
+                    <label for="name" class="form-label">Name:</label>
+                    <div class="mb-3 input-group">
+                        <input type="text" class="form-control" placeholder="Ex. John Denver">
+                    </div>
+
+                    <label for="topic" class="form-label">Topic</label>
+                    <div class="mb-3 input-group">
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <textarea class="form-control" style="height: 140px"></textarea>
+                </form>
+        </div>
+    </div>
+</div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
